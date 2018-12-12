@@ -1,0 +1,103 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Midnight Train</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+               <img src="https://si.wsj.net/public/resources/images/AR-AD292A_MIDNI_P_20130808230614.jpg">
+                <p class="lead">WHERE ARE YOU COMING FROM?</p>
+                <p>
+                    Los Angeles to see Family ,
+                    Houston to be Single ,
+                    Memphis for a Job ,
+                    Detroit When Broke ,
+                    New Jersey for Vacation ,
+                    Georgia for Your True Love ,
+                </p>
+                <p class="lead"> "I'd rather live in her world than live without her in mine"</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <table class="table col-md-10">
+                <thead>
+                    <tr>
+                        <th scope="col">Train Name</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Last Time </th>
+                        <th scope="col">Frequency (Months)</th> 
+                        <th scope="col">Next Arrival</th>
+                        <th scope="col">Months Away</th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <form id= "myForm">
+                    <div class="form-group">
+                        <label for="">Your Train Name</label>
+                        <input type="email" class="form-control" id="nameinput" aria-describedby="emailHelp"
+                            placeholder="eg. Memphis-Georgia">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Destination</label>
+                        <input type="email" class="form-control" id="desinput" aria-describedby="emailHelp"
+                            placeholder="eg. Georgia ">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Last Time (MM/DD/YYYY)</label>
+                        <input type="email" class="form-control" id="startdateinput" aria-describedby="emailHelp"
+                            placeholder="(MM/DD/YYYY)">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Frequency</label>
+                        <input type="email" class="form-control" id="rateinput" aria-describedby="emailHelp"
+                            placeholder="Months">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submitbtn">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
